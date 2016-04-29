@@ -1,0 +1,22 @@
+/*
+ * Copyright (C) 2014 China Telecom System Integration Co., Ltd.
+ * All rights reserved.
+ */
+
+apply from: 'http://config.sufor.cc/configs/gradle/server/configurations.gradle'
+
+ext {
+    configuration += [
+            sourceCompatibility    : JavaVersion.VERSION_1_6,
+            targetCompatibility    : JavaVersion.VERSION_1_6,
+
+            testSourceCompatibility: JavaVersion.VERSION_1_8,
+            testTargetCompatibility: JavaVersion.VERSION_1_8,
+    ]
+
+    libraries += [
+            servlet           : '2.5',
+            
+            postgresql        : '9.4.1208.jre6',
+    ]
+}
