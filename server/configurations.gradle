@@ -24,7 +24,7 @@ ext {
             guice             : '4.0',
 
             httpclient        : '4.5.2',
-            jackson           : '2.7.2',
+            jackson           : '2.7.3',
             wsdl4j            : '1.6.3',
             axis              : '1.4',
             jodatime          : '2.9.3',
