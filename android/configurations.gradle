@@ -9,18 +9,20 @@ ext {
             compileVersion     : 23,
             minSdkVersion      : 15,
             targetSdkVersion   : 23,
-
-            sourceCompatibility: JavaVersion.VERSION_1_6,
-            targetCompatibility: JavaVersion.VERSION_1_6,
     ]
 
     libraries = [
-            kotlinVersion    : '1.0.1-2',
+            gradle           : '2.13',
+            checkstyle       : '6.17',
+            jacoco           : '0.7.6.201602180812',
+
+            kotlinVersion    : '1.0.2',
 
             supportVersion   : '23.3.0',
+            multidex         : '1.0.1',
 
             okhttp           : '2.7.5',
-            okhttp3          : '3.2.0',
+            okhttp3          : '3.3.1',
             retrofit2        : '2.0.2',
             rxandroid        : '1.1.0',
             dagger           : '2.4',
@@ -30,7 +32,7 @@ ext {
             circleImageView  : '2.0.0',
 
             picasso          : '2.5.2',
-            libPhoneNumber   : '7.3.1',
+            libPhoneNumber   : '7.4.0',
             logger           : '1.12',
             realm            : '0.87.5',
             gson             : '2.6.2',
@@ -43,10 +45,10 @@ ext {
             espresso         : '2.2.2',
             testRunner       : '0.5',
             testRules        : '0.5',
-            spoon            : '1.5.1',
+            spoon            : '1.5.3',
             wiremock         : '1.58',
 
-            umeng            : '5.6.7',
+            umeng            : '6.0.0',
             packerHelper     : '1.0.4',
     ]
 }
