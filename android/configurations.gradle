@@ -13,7 +13,7 @@ ext {
 
     libraries = [
             gradle           : '2.13',
-            checkstyle       : '6.17',
+            checkstyle       : '6.19',
             jacoco           : '0.7.6.201602180812',
 
             kotlinVersion    : '1.0.2',
@@ -45,10 +45,11 @@ ext {
             espresso         : '2.2.2',
             testRunner       : '0.5',
             testRules        : '0.5',
-            spoon            : '1.5.3',
+            spoon            : '1.5.4',
             wiremock         : '1.58',
+            leakcanary       : '1.4-beta2',
 
-            umeng            : '6.0.0',
-            packerHelper     : '1.0.4',
+            umeng            : '6.0.1',
+            packerHelper     : '1.0.5',
     ]
 }
