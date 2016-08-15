@@ -12,7 +12,7 @@ ext {
     ]
 
     libraries = [
-            gradle            : '2.14',
+            gradle            : '2.14.1',
             checkstyle        : '6.19',
             jacoco            : '0.7.6.201602180812',
 
@@ -36,7 +36,7 @@ ext {
             jetty             : '9.3.8.v20160314',
 
             spring            : '4.2.6.RELEASE',
-            springSession     : '1.2.0.RELEASE',
+            springSession     : '1.2.1.RELEASE',
 
 
             junit             : '4.12',
@@ -57,7 +57,7 @@ ext {
             logback           : '1.1.7',
 
             postgis           : '2.1.7',
-            druid             : '1.0.20',
+            druid             : '1.0.24',
             jedis             : '2.8.1',
             springDataRedis   : '1.7.1.RELEASE',
             springDataCommons : '1.12.1.RELEASE',

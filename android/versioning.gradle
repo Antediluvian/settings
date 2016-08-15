@@ -32,10 +32,12 @@ ext {
      */
     buildVersionName = {
         def rtn = version.version;
-        if (version.build == '0') {
-            rtn += ' (' + version.suffix + ')';
-        } else {
-            rtn += ' (b' + version.build + ')';
+        if (!version.isMaster) {
+            if (version.build == '0') {
+                rtn += ' (' + version.suffix + ')';
+            } else {
+                rtn += ' (b' + version.build + ')';
+            }
         }
 
         rtn
