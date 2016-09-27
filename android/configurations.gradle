@@ -12,11 +12,11 @@ ext {
     ]
 
     libraries = [
-            gradle           : '2.14.1',
+            gradle           : '3.1',
             checkstyle       : '6.19',
-            jacoco           : '0.7.6.201602180812',
+            jacoco           : '0.7.7.201606060606',
 
-            kotlinVersion    : '1.0.2',
+            kotlinVersion    : '1.0.4',
 
             supportVersion   : '23.3.0',
             multidex         : '1.0.1',
@@ -32,7 +32,7 @@ ext {
             circleImageView  : '2.0.0',
 
             picasso          : '2.5.2',
-            libPhoneNumber   : '7.4.0',
+            libPhoneNumber   : '7.7.0',
             logger           : '1.12',
             realm            : '0.87.5',
             gson             : '2.6.2',
