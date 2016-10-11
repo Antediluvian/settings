@@ -13,7 +13,7 @@ ext {
 
     libraries = [
             gradle            : '3.1',
-            checkstyle        : '6.19',
+            checkstyle        : '7.1.2',
             jacoco            : '0.7.7.201606060606',
 
             antlr4            : '4.5.3',
@@ -24,7 +24,7 @@ ext {
             guice             : '4.0',
 
             httpclient        : '4.5.2',
-            jackson           : '2.7.4',
+            jackson           : '2.8.3',
             wsdl4j            : '1.6.3',
             axis              : '1.4',
             jodatime          : '2.9.4',
@@ -32,21 +32,22 @@ ext {
 
             shiro             : '1.2.5',
 
+            servlet           : '2.5',
             servletApi        : '3.1.0',
-            jetty             : '9.3.8.v20160314',
+            jetty             : '9.3.12.v20160915',
 
-            spring            : '4.2.6.RELEASE',
-            springSession     : '1.2.1.RELEASE',
+            spring            : '4.2.8.RELEASE',
+            springSession     : '1.2.2.RELEASE',
 
 
             junit             : '4.12',
-            mockito           : '1.10.19',
-            powermock         : '1.6.4',
+            mockito           : '2.1.0',
+            powermock         : '1.6.5',
             hamcrest          : '1.3',
             reportng          : '1.1.4',
-            testng            : '6.9.10',
+            testng            : '6.9.13.6',
             objenesis         : '2.2',
-            dbunit            : '2.5.1',
+            dbunit            : '2.5.3',
             unitils           : '3.4.2',
             jsonpath          : '2.2.0',
             awaitility        : '1.7.0',
@@ -59,8 +60,8 @@ ext {
             postgis           : '2.1.7',
             druid             : '1.0.26',
             jedis             : '2.8.1',
-            springDataRedis   : '1.7.1.RELEASE',
-            springDataCommons : '1.12.1.RELEASE',
+            springDataRedis   : '1.7.4.RELEASE',
+            springDataCommons : '1.12.4.RELEASE',
 
             commonsLang3      : '3.4',
             commonsCodec      : '1.10',
@@ -71,8 +72,8 @@ ext {
             commonsFileUpload : '1.3.2',
             commonsDiscovery  : '0.5',
 
-            disruptor         : '3.3.4',
-            curator           : '3.1.0',
-            zookeeper         : '3.4.8',
+            disruptor         : '3.3.6',
+            curator           : '3.2.0',
+            zookeeper         : '3.4.9',
     ]
 }
